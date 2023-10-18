@@ -1,0 +1,78 @@
+    /*
+    Los tres tipos de selectores básicos que tenemos son:
+    - de etiqueta
+    - de identificadores
+    - de clases
+    */
+
+    body{
+        background-color: #222;
+        color: #eee;
+        font-family: 'Oswald', sans-serif;
+    }
+    .mushoku-image {
+        background-image: url("/img/normandia.jpg");
+        background-color: #cccccc;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-radius: 25px;
+        padding: 20px;
+      }
+      
+      .mushoku-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 3px 0 #000, -3px 0 #000, 0 3px #000, 0 -3px #000,
+        2px 2px #000, -2px -2px #000, 2px -2px #000, -2px 2px #000;
+      }
+
+    .subtitle{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    img{
+        max-width: 100%;
+    }
+    #primer-mushoku{
+        max-width: 25%;
+        max-height: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container{
+        max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .center{
+        display: block;
+        margin: 0 auto;
+        width: auto;
+    }
+    #charimg{
+        max-width: 25%;
+        max-height: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .indice{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+       
+    }
+
+   

@@ -11,7 +11,7 @@
         font-family: 'Oswald', sans-serif;
     }
     .mushoku-image {
-        background-image: url("/img/normandia.jpg");
+        background-image: url("/docs/img/normandia.jpg");
         background-color: #cccccc;
         height: 300px;
         background-position: center;

@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/img/normandia.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body class="container">
     <header>
@@ -22,16 +23,22 @@
             <button id="btn-light">☀️</button>
             <button id="btn-dark">🌙</button>
           </nav>
-          <details> <summary>Indice</summary>
-          <div class="indice"><ul>
-            <li><a href="#indice1">Dia D</a></li>
-            <li><a href="#indice2">Batalla de Normandia</a></li>
-            <li><a href="#indice3">Playa de Utah</a></li>
-            <li><a href="#indice4">Playa de Omaha</a></li>
-            <li><a href="#indice5">Personas importante</a></li>
-            <li><a href="#indice6">Datos del autor</a></li>
-
-        </ul></details></div>
+    <div class="container text-center py-6">
+        <div class="card center py-6" style="width: 18rem;">
+            <div class="card-header py-6">
+              Featured
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="#indice1">Dia D</a></li>
+              <li class="list-group-item"><a href="#indice2">Batalla de Normandia</a></li>
+              <li class="list-group-item"><a href="#indice3">Playa de Utah</a></li>
+              <li class="list-group-item"><a href="#indice4">Playa de Omaha</a></li>
+              <li class="list-group-item"><a href="#indice5">Personas importante</a></li>
+              <li class="list-group-item"><a href="#indice6">Datos del autor</a></li>
+            </ul>
+          </div>
+    </div>
+       
           
         
             
@@ -80,7 +87,7 @@
     <img id="charimg" class="center"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/General_Sir_Bernard_Montgomery_in_England%2C_1943_TR1037_%28cropped%29.jpg/640px-General_Sir_Bernard_Montgomery_in_England%2C_1943_TR1037_%28cropped%29.jpg" alt="Roxy">
    </ul></details>
     
-   <h2 class="subtitle" id="indice6">Datos del autor</h2>
+   <h2 class="subtitle py-5px" id="indice6">Datos del autor</h2>
 
    <article id="info"></article>
    <article id="github"></article>
@@ -104,5 +111,6 @@
 </details>
 </footer>
     <script src="./JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>                                                                                            

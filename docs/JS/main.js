@@ -23,7 +23,7 @@ async function obtenerDatosGitHub() {
     let $github = document.querySelector("#github");
   
     $github.innerHTML = `
-      <table border="1">
+      <table border="3">
         <tr>
           <td>Nombre:</td>
           <td>${datos.login}</td>
